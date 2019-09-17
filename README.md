@@ -1,5 +1,16 @@
 # ottoDFD
-Datenflussdiagram live
+Datenflussdiagrame live
+
+Das Programm ist ein Java-Programm. Es setzt eine aktuelle JRE voraus.
+
+# Lauffähiges Programm: ottoDFD.jar
+Auf den eigenen Rechnewr laden und starten:
+
+• mit Doppelklick oder
+
+oder
+
+• java -jar ottoDFD.jar (z.B. bei Linux)
 
 Das Programm ottoDFD hilft bei der Erstellung von Datenflussdiagrammen.
 
