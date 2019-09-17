@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DATENFLUSSDIAGRAMM>
+   <!--  OTTO-DML  -->
+   <!--  Vorhandene Komponenten  -->
+   <MODULE>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Eingabe</MODUL_TYP>
+         <MODUL_ID>1</MODUL_ID>
+         <MODUL_BEZEICHNUNG>X</MODUL_BEZEICHNUNG>
+         <MODUL_WERT></MODUL_WERT>
+         <MODULPOSITION>
+            <X>37</X>
+            <Y>48</Y>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Anzeige</MODUL_TYP>
+         <MODUL_ID>2</MODUL_ID>
+         <MODUL_BEZEICHNUNG>Anzeige</MODUL_BEZEICHNUNG>
+         <MODULPOSITION>
+            <X>38</X>
+            <Y>186</Y>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Eingabe</MODUL_TYP>
+         <MODUL_ID>3</MODUL_ID>
+         <MODUL_BEZEICHNUNG>X</MODUL_BEZEICHNUNG>
+         <MODUL_WERT></MODUL_WERT>
+         <MODULPOSITION>
+            <X>395</X>
+            <Y>50</Y>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Eingabe</MODUL_TYP>
+         <MODUL_ID>4</MODUL_ID>
+         <MODUL_BEZEICHNUNG>X</MODUL_BEZEICHNUNG>
+         <MODUL_WERT></MODUL_WERT>
+         <MODULPOSITION>
+            <X>425</X>
+            <Y>213</Y>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Anzeige</MODUL_TYP>
+         <MODUL_ID>5</MODUL_ID>
+         <MODUL_BEZEICHNUNG>Anzeige</MODUL_BEZEICHNUNG>
+         <MODULPOSITION>
+            <X>229</X>
+            <Y>312</Y>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Verteiler</MODUL_TYP>
+         <MODUL_ID>6</MODUL_ID>
+         <MODULPOSITION>
+            <X>1</X>
+            <Y>3</Y>
+         </MODULPOSITION>
+      </MODUL>
+   </MODULE>
+   <!--  Verknuepfungen  -->
+   <VERKNUEPFUNGEN>
+      <VERKNUEPFUNG>
+         <EINGANGSMODUL>
+            <ID>5</ID>
+            <EINGANG>0</EINGANG>
+         </EINGANGSMODUL>
+         <AUSGANGSMODUL>4</AUSGANGSMODUL>
+      </VERKNUEPFUNG>
+   </VERKNUEPFUNGEN>
+   <!--  Ende  -->
+</DATENFLUSSDIAGRAMM>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DATENFLUSSDIAGRAMM>
+   <!--  OTTO-DML  -->
+   <!--  Vorhandene Komponenten  -->
+   <MODULE>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Eingabe</MODUL_TYP>
+         <MODUL_ID>1</MODUL_ID>
+         <MODUL_BEZEICHNUNG>Radius</MODUL_BEZEICHNUNG>
+         <MODUL_WERT>9</MODUL_WERT>
+         <MODULPOSITION>
+            <X>36</X>
+            <Y>50</Y>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Funktion</MODUL_TYP>
+         <MODUL_ID>2</MODUL_ID>
+         <MODUL_WORK_KLASSE>FW_A_Hoch</MODUL_WORK_KLASSE>
+         <EINGAENGE>2</EINGAENGE>
+         <MODUL_EINGANG_0>x</MODUL_EINGANG_0>
+         <MODUL_EINGANG_1>n</MODUL_EINGANG_1>
+         <MODUL_AUSGANG>Potenz</MODUL_AUSGANG>
+         <MODUL_BEZEICHNUNG>x ^ n</MODUL_BEZEICHNUNG>
+         <MODULPOSITION>
+            <X>72</X>
+            <Y>145</Y>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Funktion</MODUL_TYP>
+         <MODUL_ID>3</MODUL_ID>
+         <MODUL_WORK_KLASSE>FW_A_MAL</MODUL_WORK_KLASSE>
+         <EINGAENGE>2</EINGAENGE>
+         <MODUL_EINGANG_0>x</MODUL_EINGANG_0>
+         <MODUL_EINGANG_1>y</MODUL_EINGANG_1>
+         <MODUL_AUSGANG>Produkt</MODUL_AUSGANG>
+         <MODUL_BEZEICHNUNG>x * y</MODUL_BEZEICHNUNG>
+         <MODULPOSITION>
+            <X>144</X>
+            <Y>340</Y>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Anzeige</MODUL_TYP>
+         <MODUL_ID>4</MODUL_ID>
+         <MODUL_BEZEICHNUNG>Fläche</MODUL_BEZEICHNUNG>
+         <MODULPOSITION>
+            <X>144</X>
+            <Y>470</Y>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Beschreibung</MODUL_TYP>
+         <MODUL_ID>5</MODUL_ID>
+         <ZEILEN>
+            <ANZAHL>1</ANZAHL>
+            <ZEILE_0>Berechnung der Kreisfläche</ZEILE_0>
+         </ZEILEN>
+         <MODULPOSITION>
+            <X>36</X>
+            <Y>9</Y>
+            <BREITE>277</BREITE>
+            <HOEHE>37</HOEHE>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Konstante</MODUL_TYP>
+         <MODUL_ID>6</MODUL_ID>
+         <MODUL_WERT>2</MODUL_WERT>
+         <MODULPOSITION>
+            <X>217</X>
+            <Y>240</Y>
+         </MODULPOSITION>
+      </MODUL>
+   </MODULE>
+   <!--  Verknuepfungen  -->
+   <VERKNUEPFUNGEN>
+      <VERKNUEPFUNG>
+         <EINGANGSMODUL>
+            <ID>2</ID>
+            <EINGANG>0</EINGANG>
+         </EINGANGSMODUL>
+         <AUSGANGSMODUL>1</AUSGANGSMODUL>
+      </VERKNUEPFUNG>
+      <VERKNUEPFUNG>
+         <EINGANGSMODUL>
+            <ID>3</ID>
+            <EINGANG>0</EINGANG>
+         </EINGANGSMODUL>
+         <AUSGANGSMODUL>2</AUSGANGSMODUL>
+      </VERKNUEPFUNG>
+      <VERKNUEPFUNG>
+         <EINGANGSMODUL>
+            <ID>3</ID>
+            <EINGANG>1</EINGANG>
+         </EINGANGSMODUL>
+         <AUSGANGSMODUL>6</AUSGANGSMODUL>
+      </VERKNUEPFUNG>
+      <VERKNUEPFUNG>
+         <EINGANGSMODUL>
+            <ID>4</ID>
+            <EINGANG>0</EINGANG>
+         </EINGANGSMODUL>
+         <AUSGANGSMODUL>3</AUSGANGSMODUL>
+      </VERKNUEPFUNG>
+   </VERKNUEPFUNGEN>
+   <!--  Ende  -->
+</DATENFLUSSDIAGRAMM>

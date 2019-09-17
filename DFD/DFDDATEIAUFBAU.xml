@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DATENFLUSSDIAGRAMM>
+	<MODULE>
+<!-- Vorhandene Komponenten -->
+		<MODUL>
+			<MODUL_TYP> 	</MODUL_TYP>
+			<MODUL_ID>		</MODUL_ID>
+<!-- Fuer FM_S_EINGABE und FM_S_AUSGABE -->
+			<MODUL_BESCHREIBUNG> </MODUL_BESCHREIBUNG>
+			<MODUL_WERT> </MODUL_WERT>
+			<MODULPOSITION>	
+				<X>			</X>
+				<Y>			</Y>
+			</MODULPOSITION>
+		</MODUL>
+	</MODULE>
+	
+<!-- Verknuepfungen zwischen den Komponenten -->
+	<VERKNUEPFUNGEN>
+		<VERKNUEPFUNG>
+			<AUSGANGSMODUL> </AUSGANGSMODUL>
+			<EINGANGSMODUL> 
+				<ID>	</ID>
+				<EINGANG> </EINGANG>
+			</EINGANGSMODUL>
+		</VERKNUEPFUNG>
+	</VERKNUEPFUNGEN>
+	
+	<!-- Bibliothek -->
+	<MODULBIBLIOTHEK>
+<!-- Die Komposition ist das Bibliotheksmodul 
+	alle Module und Verknueofungen werden relativ zur Komposition angegeben -->
+		<KOMPOSITION>
+			<KMODUL>
+				<MODUL_TYP> 	</MODUL_TYP>
+				<MODUL_ID>		</MODUL_ID>
+				<MODULPOSITION>	
+					<X>			</X>
+					<Y>			</Y>
+				</MODULPOSITION>
+			</KMODUL>
+			<MODULE>
+				<MODUL>
+					<MODUL_TYP> 	</MODUL_TYP>
+					<MODUL_ID>		</MODUL_ID>
+					<MODULPOSITION>	
+						<X>			</X>
+						<Y>			</Y>
+					</MODULPOSITION>
+				</MODUL>
+			</MODULE>
+			<VERKNUEPFUNGEN>
+				<VERKNUEPFUNG>
+					<AUSGANGSMODUL> </AUSGANGSMODUL>
+					<EINGNAGSMODUL> 
+						<ID>	</ID>
+						<EINGANG> </EINGANG>
+					</EINGNAGSMODUL>
+				</VERKNUEPFUNG>
+			</VERKNUEPFUNGEN>
+		</KOMPOSITION>
+	</MODULBIBLIOTHEK>
+	
+</DATENFLUSSDIAGRAMM>
+
+	

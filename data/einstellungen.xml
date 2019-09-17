@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<settings>
+
+
+<directories>
+
+<maindirectory name = "D:\ASV\Rep\QM\Verfahren\Testfaelle"/>
+<outputdirectory name = "ausgabe"/>
+<testtrackreport path = "Pfad zum Report"/>
+
+<dir name = "Testverfahren_Berichte_Suche_Filter_I\aufgeteilte_Excellisten" modul = "Berichte Suche Filter 1" />
+<dir name = "Testverfahren_Lehrkraefte\aufgeteilte_Excellisten" modul = "Lehrkräfte"/>
+<dir name = "Testverfahren_Schueler_I\aufgeteilte_Excellisten" modul = "Schüler"/>
+<dir name = "Testverfahren_Schulische_Daten" modul = "Schulische Daten"/>
+<!-- Die inkompatiblen ISB-Testfälle lassen wir weg.
+<dir name = "TF Unterricht" modul = "Unterricht"/>
+-->
+
+</directories>
+
+<tester>
+
+<tester name = "Kretschmann" kuerzel = "jukre"/>
+<tester name = "Witt" kuerzel = "hawi"/>
+<tester name="Burscher" kuerzel = "ulbu"/>
+
+</tester>
+
+</settings>
+
+	

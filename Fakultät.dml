@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DATENFLUSSDIAGRAMM>
+   <!--  OTTO-DML  -->
+   <!--  Vorhandene Komponenten  -->
+   <MODULE>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Eingabe</MODUL_TYP>
+         <MODUL_ID>1</MODUL_ID>
+         <MODUL_BEZEICHNUNG>A</MODUL_BEZEICHNUNG>
+         <MODUL_WERT>200</MODUL_WERT>
+         <MODULPOSITION>
+            <X>38</X>
+            <Y>145</Y>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Anzeige</MODUL_TYP>
+         <MODUL_ID>2</MODUL_ID>
+         <MODUL_BEZEICHNUNG>Anzeige</MODUL_BEZEICHNUNG>
+         <MODULPOSITION>
+            <X>37</X>
+            <Y>341</Y>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Funktion</MODUL_TYP>
+         <MODUL_ID>3</MODUL_ID>
+         <MODUL_WORK_KLASSE>FW_I_Fakultaet</MODUL_WORK_KLASSE>
+         <EINGAENGE>1</EINGAENGE>
+         <MODUL_EINGANG_0>n</MODUL_EINGANG_0>
+         <MODUL_AUSGANG>Fakultät</MODUL_AUSGANG>
+         <MODUL_BEZEICHNUNG>(n)!</MODUL_BEZEICHNUNG>
+         <MODULPOSITION>
+            <X>36</X>
+            <Y>222</Y>
+         </MODULPOSITION>
+      </MODUL>
+   </MODULE>
+   <!--  Verknuepfungen  -->
+   <VERKNUEPFUNGEN>
+      <VERKNUEPFUNG>
+         <EINGANGSMODUL>
+            <ID>2</ID>
+            <EINGANG>0</EINGANG>
+         </EINGANGSMODUL>
+         <AUSGANGSMODUL>3</AUSGANGSMODUL>
+      </VERKNUEPFUNG>
+      <VERKNUEPFUNG>
+         <EINGANGSMODUL>
+            <ID>3</ID>
+            <EINGANG>0</EINGANG>
+         </EINGANGSMODUL>
+         <AUSGANGSMODUL>1</AUSGANGSMODUL>
+      </VERKNUEPFUNG>
+   </VERKNUEPFUNGEN>
+   <!--  Ende  -->
+</DATENFLUSSDIAGRAMM>

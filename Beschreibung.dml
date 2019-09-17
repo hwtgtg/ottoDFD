@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DATENFLUSSDIAGRAMM>
+   <!--  OTTO-DML  -->
+   <!--  Vorhandene Komponenten  -->
+   <MODULE>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Beschreibung</MODUL_TYP>
+         <MODUL_ID>1</MODUL_ID>
+         <ZEILEN>
+            <ANZAHL>0</ANZAHL>
+         </ZEILEN>
+         <MODULPOSITION>
+            <X>17</X>
+            <Y>1</Y>
+            <BREITE>358</BREITE>
+            <HOEHE>225</HOEHE>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Beschreibung</MODUL_TYP>
+         <MODUL_ID>2</MODUL_ID>
+         <ZEILEN>
+            <ANZAHL>0</ANZAHL>
+         </ZEILEN>
+         <MODULPOSITION>
+            <X>16</X>
+            <Y>227</Y>
+            <BREITE>558</BREITE>
+            <HOEHE>148</HOEHE>
+         </MODULPOSITION>
+      </MODUL>
+      <MODUL>
+         <MODUL_TYP>DFD_FModul_Beschreibung</MODUL_TYP>
+         <MODUL_ID>3</MODUL_ID>
+         <ZEILEN>
+            <ANZAHL>13</ANZAHL>
+            <ZEILE_0>1------------------------------------------------------------------                                 ---------------------------------------------------------------------------------------------------1</ZEILE_0>
+            <ZEILE_1>2</ZEILE_1>
+            <ZEILE_2>3</ZEILE_2>
+            <ZEILE_3>4</ZEILE_3>
+            <ZEILE_4>5</ZEILE_4>
+            <ZEILE_5>6</ZEILE_5>
+            <ZEILE_6>7</ZEILE_6>
+            <ZEILE_7>8</ZEILE_7>
+            <ZEILE_8>9</ZEILE_8>
+            <ZEILE_9>10</ZEILE_9>
+            <ZEILE_10>11</ZEILE_10>
+            <ZEILE_11>12</ZEILE_11>
+            <ZEILE_12></ZEILE_12>
+         </ZEILEN>
+         <MODULPOSITION>
+            <X>15</X>
+            <Y>375</Y>
+            <BREITE>856</BREITE>
+            <HOEHE>204</HOEHE>
+         </MODULPOSITION>
+      </MODUL>
+   </MODULE>
+   <!--  Verknuepfungen  -->
+   <VERKNUEPFUNGEN></VERKNUEPFUNGEN>
+   <!--  Ende  -->
+</DATENFLUSSDIAGRAMM>
