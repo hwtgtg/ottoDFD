@@ -1,4 +1,7 @@
-/bin/
-/Dokumentation
-/src/testGUI
+/Source/bin/
+/Source/Dokumentation
+/Source/src/testGUI
 /ottoDFD-Global.cfg
+/Source/Schaltkreise_Logische_Grundschaltungen.pdf
+/Source/ottoDFD-Dokumentation.odt
+/dfdLog.cmd
