@@ -4,7 +4,7 @@ Datenflussdiagrame live
 Das Programm ist ein Java-Programm. Es setzt eine aktuelle JRE voraus.
 
 # Lauffähiges Programm: ottoDFD.jar
-Auf den eigenen Rechnewr laden und starten:
+Auf den eigenen Rechner laden und starten:
 
 • mit Doppelklick oder
 
